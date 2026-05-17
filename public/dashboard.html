@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | My Notes</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <div class="header">
+      <h2>📝 My Secure Notes</h2>
+      <button id="logoutBtn">Logout</button>
+    </div>
+    <div class="user-info">
+      Logged in as: <span id="userEmail"></span>
+    </div>
+    <div class="note-form">
+      <textarea id="noteContent" placeholder="Write a new note..."></textarea>
+      <button id="addNoteBtn">+ Add Note</button>
+    </div>
+    <div id="notesList" class="notes-list">
+      <p>Loading notes...</p>
+    </div>
+  </div>
+  <script src="/client.js"></script>
+</body>
+</html>
